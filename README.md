@@ -6,7 +6,7 @@
     <br>
 </h1>
 
-<h2 align="center">The Simple User System</h2>
+<h3 align="center">The Simple User System</h3>
 
 <p align="center">
     <a href="https://rust-lang.org/">
