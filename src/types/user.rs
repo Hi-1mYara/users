@@ -1,3 +1,23 @@
+/// A struct to store user data
+/// 
+/// # Examples
+/// 
+/// A function to make a user and print its contents
+/// ```no_run
+/// fn main() -> User {
+///     let user = User::new("test", 1000, "test@example.com", false);
+///     println!(
+///         " active: {}\n username: {}\n email: {}\n uuid: {}\n admin: {}\n",
+///         user.active,
+///         user.username,
+///         user.email,
+///         user.uuid,
+///         user.admin,
+///     );
+///     return user;
+/// }
+/// ```
+
 pub struct User {
     pub active: bool,
     pub username: String,
